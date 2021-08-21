@@ -2,7 +2,7 @@ def soma():
 
     val=input('Digite um valor: ')
 
-    if(val.IsNumeric()):
+    if(val.isnumeric()):
 
         val=int(val)
 
@@ -28,7 +28,7 @@ def retorno():
 
     if(resp.lower()=='s'):
 
-        #Recursividade do projeto
+        #Recursividade do projeto e analise de partida
         
         soma()
 

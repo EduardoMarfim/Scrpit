@@ -27,6 +27,8 @@ def retorno():
     resp=input('Deseja executar novamente?[s/n]: ')
 
     if(resp.lower()=='s'):
+
+        #Recursividade do projeto
         
         soma()
 

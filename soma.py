@@ -8,6 +8,8 @@ def soma():
 
         print('O valor digitado foi {0}'.format(val))
 
+        retorno()
+
         pass
 
     else:
@@ -16,6 +18,19 @@ def soma():
 
         pass
 
+
+    pass
+
+
+def retorno():
+
+    resp=input('Deseja executar novamente?[s/n]: ')
+
+    if(resp.lower()=='s'):
+        
+        soma()
+
+        pass
 
     pass
 
